@@ -6,6 +6,11 @@ class App < Sinatra::Base
    "Hello, World!"
   end
 end
-# get '/nutritious'do
-#   "Has lots of fiber"
-# end
+ get '/name'do
+  "Brianna"
+ end
+get '/hometown' do
+  "Webster Groves"
+end
+get '/favorite-song' do
+  ""
